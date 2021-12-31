@@ -18,8 +18,8 @@ $celular = $_POST["celular"];
 $Email = $_POST["Email"];
 $OBS = $_POST["OBS"];
 
-if(empty($N°)) {
-    encho "<p>O N° deve ser informado"
+if(empty($celular)) {
+    echo "<p>O celular deve ser informado"
 }
 else{
     echo "<p> Olá <b>$N°</b>"
