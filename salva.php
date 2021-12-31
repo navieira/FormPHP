@@ -19,7 +19,6 @@ $Email = $_POST["Email"];
 $OBS = $_POST["OBS"];
 
     file_put_contents("dados.csv", "$N°,$Firma,$CNPJ,$Inscr,$Email,$OBS\n", FILE_APPEND);
-}
 
 
 ?>
