@@ -52,12 +52,12 @@
       <form action="salva.php" method="post">
        <div class="campo">
         <label for="N°">N°</label>
-        <input type="text" class="form-control"  required>
+        <input type="text" class="form-control"  required >
        </div>
 
        <div class="campo">
         <label for="firma">Firma</label>
-        <input type="text" class="form-control" required>
+        <input type="text" class="form-control" required >
     </div>
      
       
@@ -69,12 +69,12 @@
 
       <div class="col-12">
        <label for="inputComplemento" class="form-label">Endereço</label>
-       <input type="text" class="form-control" id="inputEndereço" placeholder="Rua Voluntários da Pátria" required>>
+       <input type="text" class="form-control" id="inputEndereço" placeholder="Rua Voluntários da Pátria" required>
       </div>
 
       <div class="col-12">
        <label for="inputComplemento" class="form-label">Complemento</label>
-       <input type="text" class="form-control" id="inputComplemento" placeholder="Número, Apartamento, Comdominio" required>>
+       <input type="text" class="form-control" id="inputComplemento" placeholder="Número, Apartamento, Comdominio" required>
       </div>
 
       <div class="col-md-6">
@@ -119,33 +119,38 @@
 
   <div class="col-md-6">
     <label for="inputCEP2" class="form-label">CEP</label>
-    <input type="text" class="form-control" id="inputCEP2" required>>
+    <input type="text" class="form-control" id="inputCEP2" required>
    </div>
 
    <div class="col-md-6">
     <label for="inputCNPJ" class="form-label">CNPJ</label>
-    <input type="text" class="form-control" id="inputCNPJ" required>>
+    <input type="text" class="form-control" id="inputCNPJ" required>
    </div>
 
    <div class="col-md-6">
+    <label for="inputCPF" class="col-sm-2 col-form-label">CPF</label>
+    <input type="text" class="form-control" id="inputCPF" required>
+   </div>   
+
+   <div class="col-md-6">
     <label for="inputInscr3" class="col-sm-2 col-form-label">Inscr</label>
-    <input type="text" class="form-control" id="inputInscr3" required>>
+    <input type="text" class="form-control" id="inputInscr3" required>
    </div>   
 
 
    <div class="col-md-6">
     <label for="inputTel3" class="col-sm-2 col-form-label">Tel</label>
-      <input type="tel" class="form-control" id="inputTel3" required>>
+      <input type="tel" class="form-control" id="inputTel3" required>
     </div>
 
     <div class="col-md-6">
       <label for="inputCelular3" class="col-sm-2 col-form-label">Celular</label>
-      <input type="tel" class="form-control" id="inputCelular" required>>
+      <input type="tel" class="form-control" id="inputCelular" required>
       </div>
 
       <div class="col-md-6">
         <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail" required>>
+        <input type="email" class="form-control" id="inputEmail" required>
         </div>
 
 
